@@ -8,3 +8,5 @@ C:\Users\Hp\OneDrive\Desktop\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
 C:\Users\Hp\OneDrive\Desktop\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
 C:\Users\Hp\OneDrive\Desktop\LMS\LMS\obj\Debug\LMS.exe
 C:\Users\Hp\OneDrive\Desktop\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Hp\OneDrive\Desktop\LMS\LMS\obj\Debug\LMS.SignUp.resources
+C:\Users\Hp\OneDrive\Desktop\LMS\LMS\obj\Debug\LMS.login.resources
