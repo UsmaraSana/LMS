@@ -77,6 +77,7 @@
             // labelSignUp
             // 
             this.labelSignUp.AutoSize = true;
+            this.labelSignUp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSignUp.ForeColor = System.Drawing.Color.Teal;
             this.labelSignUp.Location = new System.Drawing.Point(235, 360);
@@ -84,6 +85,7 @@
             this.labelSignUp.Size = new System.Drawing.Size(45, 13);
             this.labelSignUp.TabIndex = 23;
             this.labelSignUp.Text = "Sign Up";
+            this.labelSignUp.Click += new System.EventHandler(this.labelSignUp_Click);
             // 
             // label2
             // 
@@ -104,10 +106,12 @@
             this.buttonlogIn.TabIndex = 21;
             this.buttonlogIn.Text = "LOG IN";
             this.buttonlogIn.UseVisualStyleBackColor = false;
+            this.buttonlogIn.Click += new System.EventHandler(this.buttonlogIn_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(272, 248);
@@ -232,11 +236,12 @@
             // home
             // 
             this.home.AutoSize = true;
+            this.home.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home.Location = new System.Drawing.Point(34, 6);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(35, 13);
+            this.home.Size = new System.Drawing.Size(42, 16);
             this.home.TabIndex = 22;
-            this.home.Text = "Home";
+            this.home.Text = "LIBRO";
             // 
             // button1
             // 

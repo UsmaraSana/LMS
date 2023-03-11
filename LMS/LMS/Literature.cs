@@ -10,30 +10,25 @@ using System.Windows.Forms;
 
 namespace LMS
 {
-    public partial class login : Form
+    public partial class Literature : Form
     {
-        public static login instance;
-        public login()
+        public static Literature Instance;
+
+        public Literature()
         {
             InitializeComponent();
-            instance = this;
+            Instance = this;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void buttonlogIn_Click(object sender, EventArgs e)
+        private void navLabel_Click(object sender, EventArgs e)
         {
             HomePage form = new HomePage();
-            form.Show();
-        }
-
-        private void labelSignUp_Click(object sender, EventArgs e)
-        {
-            SignUp signUp = new SignUp();   
-            signUp.Show();
+            form.ShowDialog();
         }
 
         private void closebutton_Click(object sender, EventArgs e)
@@ -49,6 +44,11 @@ namespace LMS
         private void minbutton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
