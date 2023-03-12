@@ -70,5 +70,10 @@ namespace LMS
         {
 
         }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

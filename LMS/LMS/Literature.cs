@@ -50,5 +50,10 @@ namespace LMS
         {
 
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
