@@ -24,6 +24,7 @@ namespace LMS
         {
             Borrow borrow = new Borrow();
             borrow.Show();
+            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -97,78 +98,91 @@ namespace LMS
         {
             Historical form = new Historical();
             form.Show();
+            this.Hide();
         }
 
         private void literature_Click(object sender, EventArgs e)
         {
             Literature form = new Literature();
             form.Show();
+            this.Hide();
         }
 
         private void compSci_Click(object sender, EventArgs e)
         {
             Comp form = new Comp();
             form.Show();
+            this.Hide();
         }
 
         private void psychological_Click(object sender, EventArgs e)
         {
-            Psychological form = new Psychological();       
+            Psychological form = new Psychological();
             form.Show();
+            this.Hide();
         }
 
         private void GK_Click(object sender, EventArgs e)
         {
             GK form = new GK();
             form.Show();
+            this.Hide();
         }
 
         private void fiction_Click(object sender, EventArgs e)
         {
-            Fiction form = new Fiction(); 
+            Fiction form = new Fiction();
             form.Show();
+            this.Hide();
         }
 
         private void ReturnButton_Click(object sender, EventArgs e)
         {
             Return Return = new Return();
             Return.Show();
+            this.Hide();
         }
 
         private void ReserveButton_Click(object sender, EventArgs e)
         {
             Reserve reserve = new Reserve();
             reserve.Show();
+            this.Hide();
         }
 
         private void FineButton_Click(object sender, EventArgs e)
         {
             Fine fine = new Fine();
             fine.Show();
+            this.Hide();
         }
 
         private void CheckoutButton_Click(object sender, EventArgs e)
         {
             CheckoutHistory history = new CheckoutHistory();    
             history.Show();
+            this.Hide();
         }
 
         private void FavsButton_Click(object sender, EventArgs e)
         {
             Favorites favs = new Favorites();
             favs.Show();
+            this.Hide();
         }
 
         private void RequestButton_Click(object sender, EventArgs e)
         {
             Request request = new Request();
             request.Show();
+            this.Hide();
         }
 
         private void ProfileButton_Click(object sender, EventArgs e)
         {
             Profile profile = new Profile();
             profile.Show();
+            this.Hide();
         }
 
         private void closebutton_Click(object sender, EventArgs e)
@@ -201,9 +215,11 @@ namespace LMS
 
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void bCPdsmalik_Click(object sender, EventArgs e)
         {
-
+            BorrowForm borrowForm = new BorrowForm();
+            borrowForm.Show();
+            this.Hide();
         }
     }
 }

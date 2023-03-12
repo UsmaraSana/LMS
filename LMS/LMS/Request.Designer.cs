@@ -119,7 +119,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Azure;
-            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.reqButton);
             this.panel1.Controls.Add(this.richTextBox1);
             this.panel1.Controls.Add(this.textBox3);
@@ -137,14 +136,15 @@
             // reqButton
             // 
             this.reqButton.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.reqButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.reqButton.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reqButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.reqButton.Location = new System.Drawing.Point(182, 378);
+            this.reqButton.Location = new System.Drawing.Point(175, 379);
             this.reqButton.Name = "reqButton";
             this.reqButton.Size = new System.Drawing.Size(152, 23);
             this.reqButton.TabIndex = 98;
             this.reqButton.Text = "SEND REQUEST";
             this.reqButton.UseVisualStyleBackColor = false;
+            this.reqButton.Click += new System.EventHandler(this.reqButton_Click);
             // 
             // richTextBox1
             // 
@@ -190,8 +190,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(525, 24);
-            this.panel2.TabIndex = 99;
+            this.panel2.Size = new System.Drawing.Size(1366, 24);
+            this.panel2.TabIndex = 100;
             // 
             // home
             // 
@@ -249,6 +249,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 621);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navLabel);

@@ -23,6 +23,7 @@ namespace LMS
         {
             HomePage homePage = new HomePage();
             homePage.Show();
+            this.Hide();
         }
 
         private void closebutton_Click(object sender, EventArgs e)
@@ -48,6 +49,14 @@ namespace LMS
         private void Request_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void reqButton_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Do you want to request this book", "Request book", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+            
+            }
         }
     }
 }

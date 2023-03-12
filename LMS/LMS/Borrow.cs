@@ -23,6 +23,7 @@ namespace LMS
         {
             HomePage homePage = new HomePage();
             homePage.Show();
+            this.Hide();
         }
 
         private void closebutton_Click(object sender, EventArgs e)
@@ -38,6 +39,11 @@ namespace LMS
         private void minbutton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Borrow_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

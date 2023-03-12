@@ -33,12 +33,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.labelfirstname = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxFirstName = new System.Windows.Forms.TextBox();
+            this.textBoxLastName = new System.Windows.Forms.TextBox();
+            this.textBoxPhNo = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.textBoxPW = new System.Windows.Forms.TextBox();
+            this.textBoxConfirmPW = new System.Windows.Forms.TextBox();
             this.labellastname = new System.Windows.Forms.Label();
             this.labelphno = new System.Windows.Forms.Label();
             this.labelemail = new System.Windows.Forms.Label();
@@ -50,12 +50,12 @@
             this.buttonlogin = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.home = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.minbutton = new System.Windows.Forms.Button();
             this.closebutton = new System.Windows.Forms.Button();
             this.maxbutton = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.home = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -102,49 +102,49 @@
             this.labelfirstname.TabIndex = 2;
             this.labelfirstname.Text = "First name";
             // 
-            // textBox1
+            // textBoxFirstName
             // 
-            this.textBox1.Location = new System.Drawing.Point(519, 144);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(369, 20);
-            this.textBox1.TabIndex = 3;
+            this.textBoxFirstName.Location = new System.Drawing.Point(519, 144);
+            this.textBoxFirstName.Name = "textBoxFirstName";
+            this.textBoxFirstName.Size = new System.Drawing.Size(369, 20);
+            this.textBoxFirstName.TabIndex = 3;
             // 
-            // textBox2
+            // textBoxLastName
             // 
-            this.textBox2.Location = new System.Drawing.Point(519, 190);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(369, 20);
-            this.textBox2.TabIndex = 4;
+            this.textBoxLastName.Location = new System.Drawing.Point(519, 190);
+            this.textBoxLastName.Name = "textBoxLastName";
+            this.textBoxLastName.Size = new System.Drawing.Size(369, 20);
+            this.textBoxLastName.TabIndex = 4;
             // 
-            // textBox3
+            // textBoxPhNo
             // 
-            this.textBox3.Location = new System.Drawing.Point(519, 236);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(369, 20);
-            this.textBox3.TabIndex = 5;
+            this.textBoxPhNo.Location = new System.Drawing.Point(519, 236);
+            this.textBoxPhNo.Name = "textBoxPhNo";
+            this.textBoxPhNo.Size = new System.Drawing.Size(369, 20);
+            this.textBoxPhNo.TabIndex = 5;
             // 
-            // textBox4
+            // textBoxEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(519, 282);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(369, 20);
-            this.textBox4.TabIndex = 6;
+            this.textBoxEmail.Location = new System.Drawing.Point(519, 282);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(369, 20);
+            this.textBoxEmail.TabIndex = 6;
             // 
-            // textBox5
+            // textBoxPW
             // 
-            this.textBox5.Location = new System.Drawing.Point(519, 328);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PasswordChar = '*';
-            this.textBox5.Size = new System.Drawing.Size(369, 20);
-            this.textBox5.TabIndex = 7;
+            this.textBoxPW.Location = new System.Drawing.Point(519, 328);
+            this.textBoxPW.Name = "textBoxPW";
+            this.textBoxPW.PasswordChar = '*';
+            this.textBoxPW.Size = new System.Drawing.Size(369, 20);
+            this.textBoxPW.TabIndex = 7;
             // 
-            // textBox6
+            // textBoxConfirmPW
             // 
-            this.textBox6.Location = new System.Drawing.Point(519, 374);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.PasswordChar = '*';
-            this.textBox6.Size = new System.Drawing.Size(369, 20);
-            this.textBox6.TabIndex = 8;
+            this.textBoxConfirmPW.Location = new System.Drawing.Point(519, 374);
+            this.textBoxConfirmPW.Name = "textBoxConfirmPW";
+            this.textBoxConfirmPW.PasswordChar = '*';
+            this.textBoxConfirmPW.Size = new System.Drawing.Size(369, 20);
+            this.textBoxConfirmPW.TabIndex = 8;
             // 
             // labellastname
             // 
@@ -229,6 +229,7 @@
             this.buttoncreateacc.TabIndex = 17;
             this.buttoncreateacc.Text = "CREATE ACCOUNT";
             this.buttoncreateacc.UseVisualStyleBackColor = false;
+            this.buttoncreateacc.Click += new System.EventHandler(this.buttoncreateacc_Click);
             // 
             // buttonlogin
             // 
@@ -241,6 +242,7 @@
             this.buttonlogin.TabIndex = 18;
             this.buttonlogin.Text = "LOG IN";
             this.buttonlogin.UseVisualStyleBackColor = false;
+            this.buttonlogin.Click += new System.EventHandler(this.buttonlogin_Click);
             // 
             // label3
             // 
@@ -265,45 +267,15 @@
             this.panel2.Size = new System.Drawing.Size(1366, 24);
             this.panel2.TabIndex = 20;
             // 
-            // minbutton
+            // home
             // 
-            this.minbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minbutton.BackgroundImage")));
-            this.minbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.minbutton.Location = new System.Drawing.Point(1292, 2);
-            this.minbutton.Name = "minbutton";
-            this.minbutton.Size = new System.Drawing.Size(20, 20);
-            this.minbutton.TabIndex = 22;
-            this.minbutton.UseVisualStyleBackColor = true;
-            // 
-            // closebutton
-            // 
-            this.closebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("closebutton.BackgroundImage")));
-            this.closebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.closebutton.Location = new System.Drawing.Point(1344, 2);
-            this.closebutton.Name = "closebutton";
-            this.closebutton.Size = new System.Drawing.Size(20, 20);
-            this.closebutton.TabIndex = 21;
-            this.closebutton.UseVisualStyleBackColor = true;
-            // 
-            // maxbutton
-            // 
-            this.maxbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("maxbutton.BackgroundImage")));
-            this.maxbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.maxbutton.Location = new System.Drawing.Point(1318, 2);
-            this.maxbutton.Name = "maxbutton";
-            this.maxbutton.Size = new System.Drawing.Size(20, 20);
-            this.maxbutton.TabIndex = 22;
-            this.maxbutton.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(556, 24);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(268, 80);
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
+            this.home.AutoSize = true;
+            this.home.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home.Location = new System.Drawing.Point(34, 6);
+            this.home.Name = "home";
+            this.home.Size = new System.Drawing.Size(42, 16);
+            this.home.TabIndex = 22;
+            this.home.Text = "LIBRO";
             // 
             // button1
             // 
@@ -315,14 +287,49 @@
             this.button1.TabIndex = 23;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // home
+            // minbutton
             // 
-            this.home.AutoSize = true;
-            this.home.Location = new System.Drawing.Point(34, 6);
-            this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(35, 13);
-            this.home.TabIndex = 22;
-            this.home.Text = "Home";
+            this.minbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minbutton.BackgroundImage")));
+            this.minbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.minbutton.Location = new System.Drawing.Point(1292, 2);
+            this.minbutton.Name = "minbutton";
+            this.minbutton.Size = new System.Drawing.Size(20, 20);
+            this.minbutton.TabIndex = 22;
+            this.minbutton.UseVisualStyleBackColor = true;
+            this.minbutton.Click += new System.EventHandler(this.minbutton_Click);
+            // 
+            // closebutton
+            // 
+            this.closebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("closebutton.BackgroundImage")));
+            this.closebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.closebutton.Location = new System.Drawing.Point(1344, 2);
+            this.closebutton.Name = "closebutton";
+            this.closebutton.Size = new System.Drawing.Size(20, 20);
+            this.closebutton.TabIndex = 21;
+            this.closebutton.UseVisualStyleBackColor = true;
+            this.closebutton.Click += new System.EventHandler(this.closebutton_Click);
+            // 
+            // maxbutton
+            // 
+            this.maxbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("maxbutton.BackgroundImage")));
+            this.maxbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.maxbutton.Location = new System.Drawing.Point(1318, 2);
+            this.maxbutton.Name = "maxbutton";
+            this.maxbutton.Size = new System.Drawing.Size(20, 20);
+            this.maxbutton.TabIndex = 22;
+            this.maxbutton.UseVisualStyleBackColor = true;
+            this.maxbutton.Click += new System.EventHandler(this.maxbutton_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(556, 24);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(268, 80);
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // SignUp
             // 
@@ -342,12 +349,12 @@
             this.Controls.Add(this.labelemail);
             this.Controls.Add(this.labelphno);
             this.Controls.Add(this.labellastname);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxConfirmPW);
+            this.Controls.Add(this.textBoxPW);
+            this.Controls.Add(this.textBoxEmail);
+            this.Controls.Add(this.textBoxPhNo);
+            this.Controls.Add(this.textBoxLastName);
+            this.Controls.Add(this.textBoxFirstName);
             this.Controls.Add(this.labelfirstname);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -357,6 +364,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SignUp";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.SignUp_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -373,12 +381,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelfirstname;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxFirstName;
+        private System.Windows.Forms.TextBox textBoxLastName;
+        private System.Windows.Forms.TextBox textBoxPhNo;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.TextBox textBoxPW;
+        private System.Windows.Forms.TextBox textBoxConfirmPW;
         private System.Windows.Forms.Label labellastname;
         private System.Windows.Forms.Label labelphno;
         private System.Windows.Forms.Label labelemail;

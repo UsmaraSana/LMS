@@ -22,8 +22,9 @@ namespace LMS
 
         private void navLabel_Click(object sender, EventArgs e)
         {
-            HomePage homePage = new HomePage(); 
+            HomePage homePage = new HomePage();
             homePage.Show();
+            this.Hide();
         }
 
         private void notify_Click(object sender, EventArgs e)
@@ -40,6 +41,7 @@ namespace LMS
         {
             Request request = new Request();
             request.Show();
+            this.Hide();
         }
 
         private void closebutton_Click(object sender, EventArgs e)
@@ -55,6 +57,23 @@ namespace LMS
         private void minbutton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bCPdsmalik_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Do you want to reserve this book", "Reserve book", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+
+            }
+        }
+
+        private void rvKRkhaled_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Do you want to reserve this book", "Reserve book", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                rvKRkhaled.Text = "Reserved";
+                rvKRkhaled.BackColor = SystemColors.ActiveBorder;
+            }
         }
     }
 }

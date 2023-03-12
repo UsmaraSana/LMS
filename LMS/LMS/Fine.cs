@@ -24,6 +24,7 @@ namespace LMS
         {
             HomePage homePage = new HomePage();
             homePage.Show();
+            this.Hide();
         }
 
         private void closebutton_Click(object sender, EventArgs e)
