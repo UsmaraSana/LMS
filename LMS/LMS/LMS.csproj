@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,102 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Borrow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Borrow.Designer.cs">
-      <DependentUpon>Borrow.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BorrowForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BorrowForm.Designer.cs">
-      <DependentUpon>BorrowForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CheckoutHistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CheckoutHistory.Designer.cs">
-      <DependentUpon>CheckoutHistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Comp.Sci.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Comp.Sci.Designer.cs">
-      <DependentUpon>Comp.Sci.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Favorites.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Favorites.Designer.cs">
-      <DependentUpon>Favorites.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Fiction.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Fiction.Designer.cs">
-      <DependentUpon>Fiction.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Fine.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Fine.Designer.cs">
-      <DependentUpon>Fine.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GK.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GK.Designer.cs">
-      <DependentUpon>GK.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HomePage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HomePage.Designer.cs">
-      <DependentUpon>HomePage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Historical.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Historical.Designer.cs">
-      <DependentUpon>Historical.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Literature.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Literature.Designer.cs">
-      <DependentUpon>Literature.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Profile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Profile.Designer.cs">
-      <DependentUpon>Profile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Psychological.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Psychological.Designer.cs">
-      <DependentUpon>Psychological.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Request.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Request.Designer.cs">
-      <DependentUpon>Request.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reserve.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reserve.Designer.cs">
-      <DependentUpon>Reserve.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Return.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Return.Designer.cs">
-      <DependentUpon>Return.cs</DependentUpon>
-    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,54 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Borrow.resx">
-      <DependentUpon>Borrow.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BorrowForm.resx">
-      <DependentUpon>BorrowForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CheckoutHistory.resx">
-      <DependentUpon>CheckoutHistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Comp.Sci.resx">
-      <DependentUpon>Comp.Sci.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Favorites.resx">
-      <DependentUpon>Favorites.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fiction.resx">
-      <DependentUpon>Fiction.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fine.resx">
-      <DependentUpon>Fine.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GK.resx">
-      <DependentUpon>GK.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HomePage.resx">
-      <DependentUpon>HomePage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Historical.resx">
-      <DependentUpon>Historical.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Literature.resx">
-      <DependentUpon>Literature.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Profile.resx">
-      <DependentUpon>Profile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Psychological.resx">
-      <DependentUpon>Psychological.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Request.resx">
-      <DependentUpon>Request.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reserve.resx">
-      <DependentUpon>Reserve.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Return.resx">
-      <DependentUpon>Return.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
