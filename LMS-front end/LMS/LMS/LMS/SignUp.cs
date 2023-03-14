@@ -41,9 +41,12 @@ namespace LMS
 
         private void buttoncreateacc_Click(object sender, EventArgs e)
         {
+            if (MessageBox.Show("Account created successfully!", "Account Created", MessageBoxButtons.OK, MessageBoxIcon.Asterisk) == DialogResult.OK)
+            { 
             login form = new login();
             form.Show();
             this.Hide();
+            }
         }
 
         private void buttonlogin_Click(object sender, EventArgs e)
@@ -76,6 +79,16 @@ namespace LMS
         private void SignUp_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBoxPhNo_TextChanged(object sender, EventArgs e)
+        {
+            textBoxPhNo.ForeColor = Color.Black;
+        }
+
+        private void textBoxEmail_TextChanged(object sender, EventArgs e)
+        {
+            textBoxEmail.ForeColor = Color.Black;
         }
     }
 }

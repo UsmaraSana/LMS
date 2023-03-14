@@ -55,5 +55,70 @@ namespace LMS
         {
             Application.Exit();
         }
+
+        private void bTFASdaniel_Click(object sender, EventArgs e)
+        {
+            BorrowForm borrowForm = new BorrowForm();
+            borrowForm.Show();
+            if (borrowForm.Visible == true)
+            {
+                BorrowForm.instance.ttl.Text = "Thinking Fast and Slow";
+                BorrowForm.instance.aut.Text = "Daniel Kahneman";
+                BorrowForm.instance.ctg.Text = "Psychology";
+            }
+            this.Hide();
+        }
+
+        private void bPKMpitras_Click(object sender, EventArgs e)
+        {
+            BorrowForm borrowForm = new BorrowForm();
+            borrowForm.Show();
+            if (borrowForm.Visible == true)
+            {
+                BorrowForm.instance.ttl.Text = "Pitras Kay Mazameen";
+                BorrowForm.instance.aut.Text = "Pitras Bukhari";
+                BorrowForm.instance.ctg.Text = "Literature";
+            }
+            this.Hide();
+        }
+
+        private void bWTWWOliz_Click(object sender, EventArgs e)
+        {
+            BorrowForm borrowForm = new BorrowForm();
+            borrowForm.Show();
+            if (borrowForm.Visible == true)
+            {
+                BorrowForm.instance.ttl.Text = "When the World was Ours";
+                BorrowForm.instance.aut.Text = "Liz Kessler";
+                BorrowForm.instance.ctg.Text = "History";
+            }
+            this.Hide();
+        }
+
+        private void bTKOTHaw_Click(object sender, EventArgs e)
+        {
+            BorrowForm borrowForm = new BorrowForm();
+            borrowForm.Show();
+            if (borrowForm.Visible == true)
+            {
+                BorrowForm.instance.ttl.Text = "The Knowledge of the Holy";
+                BorrowForm.instance.aut.Text = "AW Tozer";
+                BorrowForm.instance.ctg.Text = "General Knowledge";
+            }
+            this.Hide();
+        }
+
+        private void bCCsteve_Click(object sender, EventArgs e)
+        {
+            BorrowForm borrowForm = new BorrowForm();
+            borrowForm.Show();
+            if (borrowForm.Visible == true)
+            {
+                BorrowForm.instance.ttl.Text = "Code Complete";
+                BorrowForm.instance.aut.Text = "Steve Council";
+                BorrowForm.instance.ctg.Text = "Comp. Science";
+            }
+            this.Hide();
+        }
     }
 }

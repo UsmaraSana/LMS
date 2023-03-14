@@ -63,7 +63,27 @@ namespace LMS
 
         private void closebutton_Click_1(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+            Application.Exit();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBoxEmail.ForeColor = Color.Black;
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            textBoxPhno.ForeColor = Color.Black;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            textBoxCity.ForeColor = Color.Black;
         }
     }
 }

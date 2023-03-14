@@ -93,7 +93,7 @@
             // 
             this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(1119, 303);
+            this.pictureBox7.Location = new System.Drawing.Point(1086, 302);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(123, 141);
             this.pictureBox7.TabIndex = 79;
@@ -103,7 +103,7 @@
             // 
             this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox11.Location = new System.Drawing.Point(555, 522);
+            this.pictureBox11.Location = new System.Drawing.Point(522, 521);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(123, 141);
             this.pictureBox11.TabIndex = 78;
@@ -113,7 +113,7 @@
             // 
             this.pictureBox12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox12.BackgroundImage")));
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(370, 522);
+            this.pictureBox12.Location = new System.Drawing.Point(337, 521);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(123, 141);
             this.pictureBox12.TabIndex = 77;
@@ -123,7 +123,7 @@
             // 
             this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox13.Location = new System.Drawing.Point(176, 522);
+            this.pictureBox13.Location = new System.Drawing.Point(143, 521);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(123, 141);
             this.pictureBox13.TabIndex = 76;
@@ -134,7 +134,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(170, 252);
+            this.label2.Location = new System.Drawing.Point(137, 253);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(213, 33);
             this.label2.TabIndex = 75;
@@ -144,7 +144,7 @@
             // 
             this.pictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.BackgroundImage")));
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(931, 303);
+            this.pictureBox10.Location = new System.Drawing.Point(898, 302);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(123, 141);
             this.pictureBox10.TabIndex = 74;
@@ -154,7 +154,7 @@
             // 
             this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(744, 303);
+            this.pictureBox9.Location = new System.Drawing.Point(711, 302);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(123, 141);
             this.pictureBox9.TabIndex = 73;
@@ -164,7 +164,7 @@
             // 
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(555, 303);
+            this.pictureBox8.Location = new System.Drawing.Point(522, 302);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(123, 141);
             this.pictureBox8.TabIndex = 72;
@@ -174,7 +174,7 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(370, 303);
+            this.pictureBox3.Location = new System.Drawing.Point(337, 302);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(123, 141);
             this.pictureBox3.TabIndex = 71;
@@ -184,7 +184,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(176, 303);
+            this.pictureBox2.Location = new System.Drawing.Point(143, 302);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(123, 141);
             this.pictureBox2.TabIndex = 70;
@@ -408,7 +408,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(1117, 448);
+            this.label6.Location = new System.Drawing.Point(1084, 447);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(118, 26);
@@ -418,7 +418,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(929, 448);
+            this.label1.Location = new System.Drawing.Point(896, 447);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 26);
@@ -428,7 +428,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(742, 448);
+            this.label3.Location = new System.Drawing.Point(709, 447);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 26);
@@ -438,7 +438,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(553, 448);
+            this.label4.Location = new System.Drawing.Point(520, 447);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 26);
@@ -448,7 +448,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(368, 448);
+            this.label5.Location = new System.Drawing.Point(335, 447);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 26);
@@ -458,7 +458,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(174, 448);
+            this.label7.Location = new System.Drawing.Point(141, 447);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(123, 26);
@@ -468,7 +468,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(368, 667);
+            this.label8.Location = new System.Drawing.Point(335, 666);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(109, 26);
@@ -478,7 +478,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(174, 667);
+            this.label9.Location = new System.Drawing.Point(141, 666);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(90, 26);
@@ -488,7 +488,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(553, 667);
+            this.label10.Location = new System.Drawing.Point(520, 666);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(109, 26);
@@ -501,7 +501,7 @@
             this.bBPwalker.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bBPwalker.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBPwalker.ForeColor = System.Drawing.Color.Teal;
-            this.bBPwalker.Location = new System.Drawing.Point(1117, 474);
+            this.bBPwalker.Location = new System.Drawing.Point(1084, 473);
             this.bBPwalker.Name = "bBPwalker";
             this.bBPwalker.Size = new System.Drawing.Size(40, 13);
             this.bBPwalker.TabIndex = 95;
@@ -514,7 +514,7 @@
             this.bCCSharley.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCCSharley.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCCSharley.ForeColor = System.Drawing.Color.Teal;
-            this.bCCSharley.Location = new System.Drawing.Point(928, 474);
+            this.bCCSharley.Location = new System.Drawing.Point(895, 473);
             this.bCCSharley.Name = "bCCSharley";
             this.bCCSharley.Size = new System.Drawing.Size(40, 13);
             this.bCCSharley.TabIndex = 96;
@@ -527,7 +527,7 @@
             this.bCCsteve.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCCsteve.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCCsteve.ForeColor = System.Drawing.Color.Teal;
-            this.bCCsteve.Location = new System.Drawing.Point(741, 474);
+            this.bCCsteve.Location = new System.Drawing.Point(708, 473);
             this.bCCsteve.Name = "bCCsteve";
             this.bCCsteve.Size = new System.Drawing.Size(40, 13);
             this.bCCsteve.TabIndex = 97;
@@ -540,7 +540,7 @@
             this.bRpeter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bRpeter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bRpeter.ForeColor = System.Drawing.Color.Teal;
-            this.bRpeter.Location = new System.Drawing.Point(553, 474);
+            this.bRpeter.Location = new System.Drawing.Point(520, 473);
             this.bRpeter.Name = "bRpeter";
             this.bRpeter.Size = new System.Drawing.Size(40, 13);
             this.bRpeter.TabIndex = 98;
@@ -553,7 +553,7 @@
             this.bTCSBtom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bTCSBtom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTCSBtom.ForeColor = System.Drawing.Color.Teal;
-            this.bTCSBtom.Location = new System.Drawing.Point(368, 474);
+            this.bTCSBtom.Location = new System.Drawing.Point(335, 473);
             this.bTCSBtom.Name = "bTCSBtom";
             this.bTCSBtom.Size = new System.Drawing.Size(40, 13);
             this.bTCSBtom.TabIndex = 99;
@@ -566,7 +566,7 @@
             this.bCSAFVBjohn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCSAFVBjohn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCSAFVBjohn.ForeColor = System.Drawing.Color.Teal;
-            this.bCSAFVBjohn.Location = new System.Drawing.Point(174, 474);
+            this.bCSAFVBjohn.Location = new System.Drawing.Point(141, 473);
             this.bCSAFVBjohn.Name = "bCSAFVBjohn";
             this.bCSAFVBjohn.Size = new System.Drawing.Size(40, 13);
             this.bCSAFVBjohn.TabIndex = 100;
@@ -579,7 +579,7 @@
             this.bCS12william.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCS12william.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCS12william.ForeColor = System.Drawing.Color.Teal;
-            this.bCS12william.Location = new System.Drawing.Point(553, 694);
+            this.bCS12william.Location = new System.Drawing.Point(520, 693);
             this.bCS12william.Name = "bCS12william";
             this.bCS12william.Size = new System.Drawing.Size(40, 13);
             this.bCS12william.TabIndex = 101;
@@ -592,7 +592,7 @@
             this.bMCStyler.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bMCStyler.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bMCStyler.ForeColor = System.Drawing.Color.Teal;
-            this.bMCStyler.Location = new System.Drawing.Point(368, 694);
+            this.bMCStyler.Location = new System.Drawing.Point(335, 693);
             this.bMCStyler.Name = "bMCStyler";
             this.bMCStyler.Size = new System.Drawing.Size(40, 13);
             this.bMCStyler.TabIndex = 102;
@@ -605,7 +605,7 @@
             this.bCPdsmalik.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCPdsmalik.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCPdsmalik.ForeColor = System.Drawing.Color.Teal;
-            this.bCPdsmalik.Location = new System.Drawing.Point(174, 693);
+            this.bCPdsmalik.Location = new System.Drawing.Point(141, 692);
             this.bCPdsmalik.Name = "bCPdsmalik";
             this.bCPdsmalik.Size = new System.Drawing.Size(40, 13);
             this.bCPdsmalik.TabIndex = 103;
@@ -615,7 +615,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(498, 423);
+            this.pictureBox5.Location = new System.Drawing.Point(465, 422);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(17, 15);

@@ -48,9 +48,9 @@
             this.Phno = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.textBoxPhno = new System.Windows.Forms.TextBox();
+            this.textBoxCity = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -175,7 +175,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(184, 18);
+            this.label1.Location = new System.Drawing.Point(174, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 29);
             this.label1.TabIndex = 70;
@@ -185,7 +185,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Location = new System.Drawing.Point(-3, 47);
+            this.label2.Location = new System.Drawing.Point(-3, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(673, 13);
             this.label2.TabIndex = 71;
@@ -196,7 +196,7 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(166, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(166, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(149, 122);
             this.pictureBox1.TabIndex = 72;
@@ -206,7 +206,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(271, 162);
+            this.pictureBox2.Location = new System.Drawing.Point(271, 155);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(22, 21);
             this.pictureBox2.TabIndex = 73;
@@ -217,7 +217,7 @@
             this.name.AutoSize = true;
             this.name.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.ForeColor = System.Drawing.Color.Teal;
-            this.name.Location = new System.Drawing.Point(17, 228);
+            this.name.Location = new System.Drawing.Point(17, 203);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(49, 19);
             this.name.TabIndex = 74;
@@ -228,7 +228,7 @@
             this.college.AutoSize = true;
             this.college.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.college.ForeColor = System.Drawing.Color.Teal;
-            this.college.Location = new System.Drawing.Point(17, 476);
+            this.college.Location = new System.Drawing.Point(17, 451);
             this.college.Name = "college";
             this.college.Size = new System.Drawing.Size(73, 19);
             this.college.TabIndex = 75;
@@ -240,7 +240,7 @@
             this.City.AutoSize = true;
             this.City.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.City.ForeColor = System.Drawing.Color.Teal;
-            this.City.Location = new System.Drawing.Point(17, 414);
+            this.City.Location = new System.Drawing.Point(17, 389);
             this.City.Name = "City";
             this.City.Size = new System.Drawing.Size(34, 19);
             this.City.TabIndex = 76;
@@ -251,7 +251,7 @@
             this.Phno.AutoSize = true;
             this.Phno.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Phno.ForeColor = System.Drawing.Color.Teal;
-            this.Phno.Location = new System.Drawing.Point(17, 353);
+            this.Phno.Location = new System.Drawing.Point(17, 328);
             this.Phno.Name = "Phno";
             this.Phno.Size = new System.Drawing.Size(77, 19);
             this.Phno.TabIndex = 77;
@@ -262,7 +262,7 @@
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.Color.Teal;
-            this.email.Location = new System.Drawing.Point(17, 286);
+            this.email.Location = new System.Drawing.Point(17, 261);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(46, 19);
             this.email.TabIndex = 78;
@@ -271,43 +271,46 @@
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(21, 251);
+            this.textBox1.Location = new System.Drawing.Point(21, 226);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(432, 20);
             this.textBox1.TabIndex = 80;
-            this.textBox1.Text = "First Last";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // textBoxEmail
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(21, 308);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(432, 20);
-            this.textBox2.TabIndex = 81;
-            this.textBox2.Text = "example@gmail.com";
+            this.textBoxEmail.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxEmail.Location = new System.Drawing.Point(21, 283);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(432, 20);
+            this.textBoxEmail.TabIndex = 81;
+            this.textBoxEmail.Text = "example@gmail.com";
+            this.textBoxEmail.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // textBoxPhno
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(21, 375);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(432, 20);
-            this.textBox3.TabIndex = 82;
-            this.textBox3.Text = "+92xxxxxxxxxx";
+            this.textBoxPhno.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxPhno.Location = new System.Drawing.Point(21, 350);
+            this.textBoxPhno.Name = "textBoxPhno";
+            this.textBoxPhno.Size = new System.Drawing.Size(432, 20);
+            this.textBoxPhno.TabIndex = 82;
+            this.textBoxPhno.Text = "+92xxxxxxxxxx";
+            this.textBoxPhno.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // textBoxCity
             // 
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(21, 436);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(432, 20);
-            this.textBox4.TabIndex = 83;
-            this.textBox4.Text = "Lahore";
+            this.textBoxCity.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxCity.Location = new System.Drawing.Point(21, 411);
+            this.textBoxCity.Name = "textBoxCity";
+            this.textBoxCity.Size = new System.Drawing.Size(432, 20);
+            this.textBoxCity.TabIndex = 83;
+            this.textBoxCity.Text = "Lahore";
+            this.textBoxCity.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
             this.textBox5.ForeColor = System.Drawing.Color.Black;
-            this.textBox5.Location = new System.Drawing.Point(21, 498);
+            this.textBox5.Location = new System.Drawing.Point(21, 473);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(432, 20);
             this.textBox5.TabIndex = 84;
@@ -322,13 +325,13 @@
             this.panel3.Controls.Add(this.textBox5);
             this.panel3.Controls.Add(this.City);
             this.panel3.Controls.Add(this.Phno);
-            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.textBoxCity);
             this.panel3.Controls.Add(this.college);
             this.panel3.Controls.Add(this.email);
-            this.panel3.Controls.Add(this.textBox3);
+            this.panel3.Controls.Add(this.textBoxPhno);
             this.panel3.Controls.Add(this.name);
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.textBoxEmail);
             this.panel3.Location = new System.Drawing.Point(217, 96);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(467, 525);
@@ -406,7 +409,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1366, 621);
+            this.ClientSize = new System.Drawing.Size(1366, 788);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.navLabel);
@@ -447,9 +450,9 @@
         private System.Windows.Forms.Label Phno;
         private System.Windows.Forms.Label email;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.TextBox textBoxPhno;
+        private System.Windows.Forms.TextBox textBoxCity;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;

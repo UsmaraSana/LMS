@@ -104,6 +104,7 @@
             // 
             // textBoxFirstName
             // 
+            this.textBoxFirstName.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBoxFirstName.Location = new System.Drawing.Point(519, 144);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(369, 20);
@@ -111,6 +112,7 @@
             // 
             // textBoxLastName
             // 
+            this.textBoxLastName.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBoxLastName.Location = new System.Drawing.Point(519, 190);
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(369, 20);
@@ -118,17 +120,23 @@
             // 
             // textBoxPhNo
             // 
+            this.textBoxPhNo.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.textBoxPhNo.Location = new System.Drawing.Point(519, 236);
             this.textBoxPhNo.Name = "textBoxPhNo";
             this.textBoxPhNo.Size = new System.Drawing.Size(369, 20);
             this.textBoxPhNo.TabIndex = 5;
+            this.textBoxPhNo.Text = "03xxxxxxxxx";
+            this.textBoxPhNo.TextChanged += new System.EventHandler(this.textBoxPhNo_TextChanged);
             // 
             // textBoxEmail
             // 
+            this.textBoxEmail.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.textBoxEmail.Location = new System.Drawing.Point(519, 282);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(369, 20);
             this.textBoxEmail.TabIndex = 6;
+            this.textBoxEmail.Text = "example@gmail.com";
+            this.textBoxEmail.TextChanged += new System.EventHandler(this.textBoxEmail_TextChanged);
             // 
             // textBoxPW
             // 

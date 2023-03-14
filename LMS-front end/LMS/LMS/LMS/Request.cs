@@ -55,7 +55,8 @@ namespace LMS
         {
             if (MessageBox.Show("Do you want to request this book", "Request book", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-            
+                reqButton.Text = "Request Sent";
+                reqButton.BackColor= SystemColors.ActiveBorder;
             }
         }
 

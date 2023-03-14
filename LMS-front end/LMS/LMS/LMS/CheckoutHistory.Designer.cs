@@ -47,11 +47,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.bTKOTHaw = new System.Windows.Forms.Label();
+            this.bWTWWOliz = new System.Windows.Forms.Label();
+            this.bPKMpitras = new System.Windows.Forms.Label();
+            this.bTFASdaniel = new System.Windows.Forms.Label();
+            this.bCCsteve = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -246,65 +246,70 @@
             this.label8.TabIndex = 100;
             this.label8.Text = "Thinking Fast And Slow\r\n-Daniel Kahneman\r\n";
             // 
-            // label16
+            // bTKOTHaw
             // 
-            this.label16.AutoSize = true;
-            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(649, 266);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(40, 13);
-            this.label16.TabIndex = 113;
-            this.label16.Text = "Borrow";
+            this.bTKOTHaw.AutoSize = true;
+            this.bTKOTHaw.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bTKOTHaw.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bTKOTHaw.ForeColor = System.Drawing.Color.Teal;
+            this.bTKOTHaw.Location = new System.Drawing.Point(649, 266);
+            this.bTKOTHaw.Name = "bTKOTHaw";
+            this.bTKOTHaw.Size = new System.Drawing.Size(40, 13);
+            this.bTKOTHaw.TabIndex = 113;
+            this.bTKOTHaw.Text = "Borrow";
+            this.bTKOTHaw.Click += new System.EventHandler(this.bTKOTHaw_Click);
             // 
-            // label15
+            // bWTWWOliz
             // 
-            this.label15.AutoSize = true;
-            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Teal;
-            this.label15.Location = new System.Drawing.Point(454, 266);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(40, 13);
-            this.label15.TabIndex = 112;
-            this.label15.Text = "Borrow";
+            this.bWTWWOliz.AutoSize = true;
+            this.bWTWWOliz.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bWTWWOliz.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bWTWWOliz.ForeColor = System.Drawing.Color.Teal;
+            this.bWTWWOliz.Location = new System.Drawing.Point(454, 266);
+            this.bWTWWOliz.Name = "bWTWWOliz";
+            this.bWTWWOliz.Size = new System.Drawing.Size(40, 13);
+            this.bWTWWOliz.TabIndex = 112;
+            this.bWTWWOliz.Text = "Borrow";
+            this.bWTWWOliz.Click += new System.EventHandler(this.bWTWWOliz_Click);
             // 
-            // label14
+            // bPKMpitras
             // 
-            this.label14.AutoSize = true;
-            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Teal;
-            this.label14.Location = new System.Drawing.Point(261, 266);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(40, 13);
-            this.label14.TabIndex = 111;
-            this.label14.Text = "Borrow";
+            this.bPKMpitras.AutoSize = true;
+            this.bPKMpitras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bPKMpitras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bPKMpitras.ForeColor = System.Drawing.Color.Teal;
+            this.bPKMpitras.Location = new System.Drawing.Point(261, 266);
+            this.bPKMpitras.Name = "bPKMpitras";
+            this.bPKMpitras.Size = new System.Drawing.Size(40, 13);
+            this.bPKMpitras.TabIndex = 111;
+            this.bPKMpitras.Text = "Borrow";
+            this.bPKMpitras.Click += new System.EventHandler(this.bPKMpitras_Click);
             // 
-            // label10
+            // bTFASdaniel
             // 
-            this.label10.AutoSize = true;
-            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Teal;
-            this.label10.Location = new System.Drawing.Point(75, 266);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 13);
-            this.label10.TabIndex = 110;
-            this.label10.Text = "Borrow";
+            this.bTFASdaniel.AutoSize = true;
+            this.bTFASdaniel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bTFASdaniel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bTFASdaniel.ForeColor = System.Drawing.Color.Teal;
+            this.bTFASdaniel.Location = new System.Drawing.Point(75, 266);
+            this.bTFASdaniel.Name = "bTFASdaniel";
+            this.bTFASdaniel.Size = new System.Drawing.Size(40, 13);
+            this.bTFASdaniel.TabIndex = 110;
+            this.bTFASdaniel.Text = "Borrow";
+            this.bTFASdaniel.Click += new System.EventHandler(this.bTFASdaniel_Click);
             // 
-            // label2
+            // bCCsteve
             // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(830, 266);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
-            this.label2.TabIndex = 114;
-            this.label2.Text = "Borrow";
+            this.bCCsteve.AutoSize = true;
+            this.bCCsteve.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bCCsteve.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bCCsteve.ForeColor = System.Drawing.Color.Teal;
+            this.bCCsteve.Location = new System.Drawing.Point(830, 266);
+            this.bCCsteve.Name = "bCCsteve";
+            this.bCCsteve.Size = new System.Drawing.Size(40, 13);
+            this.bCCsteve.TabIndex = 114;
+            this.bCCsteve.Text = "Borrow";
+            this.bCCsteve.Click += new System.EventHandler(this.bCCsteve_Click);
             // 
             // CheckoutHistory
             // 
@@ -312,11 +317,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1366, 621);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.bCCsteve);
+            this.Controls.Add(this.bTKOTHaw);
+            this.Controls.Add(this.bWTWWOliz);
+            this.Controls.Add(this.bPKMpitras);
+            this.Controls.Add(this.bTFASdaniel);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
@@ -366,10 +371,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label bTKOTHaw;
+        private System.Windows.Forms.Label bWTWWOliz;
+        private System.Windows.Forms.Label bPKMpitras;
+        private System.Windows.Forms.Label bTFASdaniel;
+        private System.Windows.Forms.Label bCCsteve;
     }
 }

@@ -91,7 +91,7 @@
             // 
             this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(1129, 307);
+            this.pictureBox7.Location = new System.Drawing.Point(1086, 306);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(123, 141);
             this.pictureBox7.TabIndex = 79;
@@ -101,7 +101,7 @@
             // 
             this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox11.Location = new System.Drawing.Point(565, 526);
+            this.pictureBox11.Location = new System.Drawing.Point(522, 525);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(123, 141);
             this.pictureBox11.TabIndex = 78;
@@ -111,7 +111,7 @@
             // 
             this.pictureBox12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox12.BackgroundImage")));
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(380, 526);
+            this.pictureBox12.Location = new System.Drawing.Point(337, 525);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(123, 141);
             this.pictureBox12.TabIndex = 77;
@@ -121,7 +121,7 @@
             // 
             this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox13.Location = new System.Drawing.Point(186, 526);
+            this.pictureBox13.Location = new System.Drawing.Point(143, 525);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(123, 141);
             this.pictureBox13.TabIndex = 76;
@@ -132,7 +132,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(180, 256);
+            this.label2.Location = new System.Drawing.Point(137, 253);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(270, 33);
             this.label2.TabIndex = 75;
@@ -143,7 +143,7 @@
             // 
             this.pictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.BackgroundImage")));
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(941, 307);
+            this.pictureBox10.Location = new System.Drawing.Point(898, 306);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(123, 141);
             this.pictureBox10.TabIndex = 74;
@@ -153,7 +153,7 @@
             // 
             this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(754, 307);
+            this.pictureBox9.Location = new System.Drawing.Point(711, 306);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(123, 141);
             this.pictureBox9.TabIndex = 73;
@@ -163,7 +163,7 @@
             // 
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(565, 307);
+            this.pictureBox8.Location = new System.Drawing.Point(522, 306);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(123, 141);
             this.pictureBox8.TabIndex = 72;
@@ -173,7 +173,7 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(380, 307);
+            this.pictureBox3.Location = new System.Drawing.Point(337, 306);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(123, 141);
             this.pictureBox3.TabIndex = 71;
@@ -183,7 +183,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(186, 307);
+            this.pictureBox2.Location = new System.Drawing.Point(143, 306);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(123, 141);
             this.pictureBox2.TabIndex = 70;
@@ -408,7 +408,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(184, 451);
+            this.label6.Location = new System.Drawing.Point(141, 450);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(101, 26);
@@ -418,7 +418,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(183, 670);
+            this.label1.Location = new System.Drawing.Point(140, 669);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 26);
@@ -428,7 +428,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1127, 452);
+            this.label3.Location = new System.Drawing.Point(1084, 451);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 26);
@@ -438,7 +438,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(939, 452);
+            this.label4.Location = new System.Drawing.Point(896, 451);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 26);
@@ -448,7 +448,7 @@
             // bZHRmolana
             // 
             this.bZHRmolana.AutoSize = true;
-            this.bZHRmolana.Location = new System.Drawing.Point(752, 452);
+            this.bZHRmolana.Location = new System.Drawing.Point(709, 451);
             this.bZHRmolana.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bZHRmolana.Name = "bZHRmolana";
             this.bZHRmolana.Size = new System.Drawing.Size(116, 26);
@@ -458,7 +458,7 @@
             // bBOIdavid
             // 
             this.bBOIdavid.AutoSize = true;
-            this.bBOIdavid.Location = new System.Drawing.Point(563, 452);
+            this.bBOIdavid.Location = new System.Drawing.Point(520, 451);
             this.bBOIdavid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bBOIdavid.Name = "bBOIdavid";
             this.bBOIdavid.Size = new System.Drawing.Size(101, 26);
@@ -468,7 +468,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(378, 452);
+            this.label8.Location = new System.Drawing.Point(335, 451);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(99, 26);
@@ -478,7 +478,7 @@
             // bKKHshahid
             // 
             this.bKKHshahid.AutoSize = true;
-            this.bKKHshahid.Location = new System.Drawing.Point(563, 671);
+            this.bKKHshahid.Location = new System.Drawing.Point(520, 670);
             this.bKKHshahid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bKKHshahid.Name = "bKKHshahid";
             this.bKKHshahid.Size = new System.Drawing.Size(101, 26);
@@ -488,7 +488,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(378, 671);
+            this.label10.Location = new System.Drawing.Point(335, 670);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(102, 26);
@@ -501,7 +501,7 @@
             this.bCOGKkartik.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCOGKkartik.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCOGKkartik.ForeColor = System.Drawing.Color.Teal;
-            this.bCOGKkartik.Location = new System.Drawing.Point(378, 697);
+            this.bCOGKkartik.Location = new System.Drawing.Point(335, 696);
             this.bCOGKkartik.Name = "bCOGKkartik";
             this.bCOGKkartik.Size = new System.Drawing.Size(40, 13);
             this.bCOGKkartik.TabIndex = 95;
@@ -514,7 +514,7 @@
             this.bCGKumar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bCGKumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bCGKumar.ForeColor = System.Drawing.Color.Teal;
-            this.bCGKumar.Location = new System.Drawing.Point(183, 697);
+            this.bCGKumar.Location = new System.Drawing.Point(140, 696);
             this.bCGKumar.Name = "bCGKumar";
             this.bCGKumar.Size = new System.Drawing.Size(40, 13);
             this.bCGKumar.TabIndex = 96;
@@ -527,7 +527,7 @@
             this.bLOKamir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bLOKamir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bLOKamir.ForeColor = System.Drawing.Color.Teal;
-            this.bLOKamir.Location = new System.Drawing.Point(1127, 477);
+            this.bLOKamir.Location = new System.Drawing.Point(1084, 476);
             this.bLOKamir.Name = "bLOKamir";
             this.bLOKamir.Size = new System.Drawing.Size(40, 13);
             this.bLOKamir.TabIndex = 97;
@@ -539,7 +539,7 @@
             this.bEOGKali.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bEOGKali.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bEOGKali.ForeColor = System.Drawing.Color.Teal;
-            this.bEOGKali.Location = new System.Drawing.Point(939, 477);
+            this.bEOGKali.Location = new System.Drawing.Point(896, 476);
             this.bEOGKali.Name = "bEOGKali";
             this.bEOGKali.Size = new System.Drawing.Size(40, 13);
             this.bEOGKali.TabIndex = 98;
@@ -552,7 +552,7 @@
             this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Teal;
-            this.label15.Location = new System.Drawing.Point(751, 477);
+            this.label15.Location = new System.Drawing.Point(708, 476);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(40, 13);
             this.label15.TabIndex = 99;
@@ -565,7 +565,7 @@
             this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(563, 477);
+            this.label16.Location = new System.Drawing.Point(520, 476);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(40, 13);
             this.label16.TabIndex = 100;
@@ -578,7 +578,7 @@
             this.bTKOFds.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bTKOFds.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTKOFds.ForeColor = System.Drawing.Color.Teal;
-            this.bTKOFds.Location = new System.Drawing.Point(378, 477);
+            this.bTKOFds.Location = new System.Drawing.Point(335, 476);
             this.bTKOFds.Name = "bTKOFds";
             this.bTKOFds.Size = new System.Drawing.Size(40, 13);
             this.bTKOFds.TabIndex = 101;
@@ -591,7 +591,7 @@
             this.bTKOTHaw.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bTKOTHaw.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTKOTHaw.ForeColor = System.Drawing.Color.Teal;
-            this.bTKOTHaw.Location = new System.Drawing.Point(184, 477);
+            this.bTKOTHaw.Location = new System.Drawing.Point(141, 476);
             this.bTKOTHaw.Name = "bTKOTHaw";
             this.bTKOTHaw.Size = new System.Drawing.Size(40, 13);
             this.bTKOTHaw.TabIndex = 102;
@@ -604,7 +604,7 @@
             this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Teal;
-            this.label19.Location = new System.Drawing.Point(563, 697);
+            this.label19.Location = new System.Drawing.Point(520, 696);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(40, 13);
             this.label19.TabIndex = 103;

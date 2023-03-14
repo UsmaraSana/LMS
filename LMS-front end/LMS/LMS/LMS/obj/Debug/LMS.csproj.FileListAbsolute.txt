@@ -121,3 +121,59 @@ C:\Users\Hp\Desktop\LMS\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
 C:\Users\Hp\Desktop\LMS\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Desktop\LMS\LMS\LMS\obj\Debug\LMS.exe
 C:\Users\Hp\Desktop\LMS\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\bin\Debug\LMS.exe
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\bin\Debug\LMS.pdb
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Borrow.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.BorrowForm.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.CheckoutHistory.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Comp.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Favorites.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Fiction.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Fine.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.GK.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.HomePage.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Historical.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Literature.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Profile.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Psychological.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Request.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Reserve.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Return.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.SignUp.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.login.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Hp\Desktop\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\bin\Debug\LMS.exe
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\bin\Debug\LMS.pdb
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Borrow.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.BorrowForm.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.CheckoutHistory.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Comp.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Favorites.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Fiction.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Fine.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.GK.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.HomePage.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Historical.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Literature.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Profile.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Psychological.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Request.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Reserve.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Return.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.SignUp.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.login.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Hp\Desktop\DB\DB project\part 3-front end\LMS-front end\LMS\LMS\LMS\obj\Debug\LMS.pdb
